@@ -121,8 +121,8 @@ The reference results were produced on CPU with Python 3.13, PyTorch 2.14.1, PyT
 | `docs/knowledge_graph.md` | the knowledge graph, edge by edge, with sources |
 
 ## How this was built
-
-The code in this repository was written with substantial help from an AI coding assistant (Claude, Anthropic). I reviewed the process-knowledge graph, ran the experiments and checked the results reported here.
+The research question comes from my postdoc research concept: does engineering knowledge about a plant, written as a typed graph, help a graph neural network diagnose faults?
+I built the project with an AI coding assistant (Claude, Anthropic), which I used to learn PyTorch Geometric; it wrote the code and the analysis scripts and drafted the knowledge graph. I re-ran every experiment and checked each claim in this README against my own run.
 
 ## References
 
